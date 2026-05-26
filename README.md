@@ -56,7 +56,7 @@ The boot menu shows ISOs organized by category (TreeView mode). Navigation:
 ### Step 2 — Clone this repo
 
 ```
-git clone https://github.com/YOUR_USERNAME/OtterOS.git
+git clone https://github.com/eshnaidm/OtterOS.git
 ```
 
 Or download the ZIP from GitHub and extract it.
