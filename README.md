@@ -4,7 +4,7 @@
 
 Boot from it to get a clean menu with Windows installers, recovery environments, Linux distros, and diagnostic tools. After installing Windows, plug the USB back in and use the Toolkit folder for drivers, scripts, and utilities.
 
-> Built for a PC repair and gaming PC installation shop in Israel. Works for any technician.
+> Built for a PC repair and gaming PC installation shop. Works for any technician.
 
 ---
 
