@@ -44,6 +44,7 @@ ventoy/theme/*.jpg
 
 # ── Claude Code internal files ───────────────────────────────────────────────
 .claude/
+CLAUDE.md
 
 # ── OS junk ─────────────────────────────────────────────────────────────────
 # Windows
