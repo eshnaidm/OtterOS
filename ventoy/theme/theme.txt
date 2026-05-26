@@ -1,0 +1,71 @@
+# OtterOS GRUB2 Theme
+
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#0d1117"
+terminal-font: "DejaVu Sans Regular 14"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+
+# Title - top left
++ label {
+    left = 4%
+    top = 4%
+    width = 50%
+    text = "OtterOS v1.0"
+    font = "DejaVu Sans Bold 28"
+    color = "#58A6FF"
+    align = "left"
+}
+
++ label {
+    left = 4%
+    top = 10%
+    width = 50%
+    text = "Technician Toolkit"
+    font = "DejaVu Sans Regular 14"
+    color = "#6E7681"
+    align = "left"
+}
+
+# Boot menu - left side, otter image visible on right
++ boot_menu {
+    left = 4%
+    top = 18%
+    width = 46%
+    height = 68%
+    item_font = "DejaVu Sans Regular 16"
+    item_color = "#C9D1D9"
+    selected_item_font = "DejaVu Sans Bold 16"
+    selected_item_color = "#FFFFFF"
+    item_height = 34
+    item_padding = 10
+    item_spacing = 2
+    item_icon_space = 8
+    selected_item_pixmap_style = "select_*.png"
+    scrollbar = true
+    scrollbar_width = 6
+}
+
+# Bottom hints - left aligned
++ label {
+    left = 4%
+    top = 91%
+    width = 55%
+    text = "Arrows: Navigate   Enter: Select   F3: Toggle View"
+    font = "DejaVu Sans Regular 11"
+    color = "#484F58"
+    align = "left"
+}
+
++ label {
+    left = 4%
+    top = 94%
+    width = 55%
+    text = "Ctrl+W: WIMBOOT (WinPE fix)   ESC: Back"
+    font = "DejaVu Sans Regular 11"
+    color = "#484F58"
+    align = "left"
+}

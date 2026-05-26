@@ -1,0 +1,49 @@
+{
+    "control": [
+        { "VTOY_DEFAULT_SEARCH_ROOT": "/ISO" },
+        { "VTOY_MENU_TIMEOUT": "0" },
+        { "VTOY_TREE_VIEW_MENU_STYLE": "1" },
+        { "VTOY_FILT_DOT_UNDERSCORE_FILE": "1" },
+        { "VTOY_WIN11_BYPASS_CHECK": "1" },
+        { "VTOY_WIN11_BYPASS_NRO": "1" },
+        { "VTOY_FILE_FLT_EFI": "1" },
+        { "VTOY_SORT_CASE_SENSITIVE": "0" },
+        { "VTOY_DEFAULT_MENU_MODE": "1" }
+    ],
+    "theme": {
+        "file": "/ventoy/theme/theme.txt",
+        "gfxmode": "1920x1080,1366x768,1024x768,auto",
+        "display_mode": "GUI",
+        "ventoy_left": "4%",
+        "ventoy_top": "18%",
+        "ventoy_color": "#FFFFFF",
+        "ventoy_width": "46%",
+        "ventoy_height": "68%"
+    },
+    "auto_install": [
+        {
+            "image": "/ISO/Windows/Win11_English.iso",
+            "template": ["/ventoy/auto_install/win11_en.xml"]
+        },
+        {
+            "image": "/ISO/Windows/Win11_Hebrew.iso",
+            "template": ["/ventoy/auto_install/win11_he.xml"]
+        },
+        {
+            "image": "/ISO/Windows/Win11_Russian.iso",
+            "template": ["/ventoy/auto_install/win11_ru.xml"]
+        },
+        {
+            "image": "/ISO/Windows/Win10_English.iso",
+            "template": ["/ventoy/auto_install/win10_en.xml"]
+        },
+        {
+            "image": "/ISO/Windows/Win10_Hebrew.iso",
+            "template": ["/ventoy/auto_install/win10_he.xml"]
+        },
+        {
+            "image": "/ISO/Windows/Win10_Russian.iso",
+            "template": ["/ventoy/auto_install/win10_ru.xml"]
+        }
+    ]
+}

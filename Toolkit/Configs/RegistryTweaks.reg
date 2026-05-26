@@ -1,0 +1,59 @@
+Windows Registry Editor Version 5.00
+
+; OtterOS Registry Tweaks
+; Performance and Privacy optimizations for fresh Windows installs
+; Double-click to apply, or import via regedit
+
+; === FILE EXPLORER ===
+; Show file extensions
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"HideFileExt"=dword:00000000
+"Hidden"=dword:00000001
+"LaunchTo"=dword:00000001
+"ShowTaskViewButton"=dword:00000000
+"TaskbarDa"=dword:00000000
+"TaskbarMn"=dword:00000000
+
+; === CLASSIC CONTEXT MENU (Windows 11) ===
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32]
+@=""
+
+; === DISABLE CORTANA ===
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"AllowCortana"=dword:00000000
+"DisableWebSearch"=dword:00000001
+"ConnectedSearchUseWeb"=dword:00000000
+
+; === DISABLE TELEMETRY ===
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
+"AllowTelemetry"=dword:00000000
+
+; === DISABLE ADVERTISING ID ===
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\AdvertisingInfo]
+"Enabled"=dword:00000000
+
+; === DISABLE CONTENT DELIVERY (suggestions, tips, bloat reinstall) ===
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"SilentInstalledAppsEnabled"=dword:00000000
+"SystemPaneSuggestionsEnabled"=dword:00000000
+"SubscribedContent-338389Enabled"=dword:00000000
+"SubscribedContent-310093Enabled"=dword:00000000
+"SubscribedContent-338387Enabled"=dword:00000000
+"RotatingLockScreenOverlayEnabled"=dword:00000000
+"OemPreInstalledAppsEnabled"=dword:00000000
+"PreInstalledAppsEnabled"=dword:00000000
+
+; === DISABLE ACTIVITY HISTORY ===
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"EnableActivityFeed"=dword:00000000
+"PublishUserActivities"=dword:00000000
+"UploadUserActivities"=dword:00000000
+
+; === SEARCH: Icon only ===
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search]
+"SearchboxTaskbarMode"=dword:00000001
+
+; === DISABLE CONSUMER FEATURES ===
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CloudContent]
+"DisableWindowsConsumerFeatures"=dword:00000001
+"DisableConsumerAccountStateContent"=dword:00000001

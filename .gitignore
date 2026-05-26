@@ -1,0 +1,65 @@
+# ── Large binary files ──────────────────────────────────────────────────────
+# Windows/Linux/recovery ISOs
+*.iso
+*.img
+*.wim
+
+# Driver packs and archives
+*.7z
+*.rar
+*.zip
+
+# Executables and installers
+*.exe
+*.msi
+*.cab
+*.inf
+*.sys
+
+# ── Toolkit large content ────────────────────────────────────────────────────
+# SDIO driver packs folder (55GB - never commit)
+Toolkit/Drivers/SDIO/drivers/
+Toolkit/Drivers/SDIO/indexes/
+Toolkit/Drivers/SDIO/logs/
+Toolkit/Drivers/SDIO/tools/
+
+# GPU and chipset standalone installers (too large)
+Toolkit/Drivers/GPU_NVIDIA/
+Toolkit/Drivers/GPU_AMD/
+Toolkit/Drivers/GPU_Intel/
+Toolkit/Drivers/Chipset_AMD/
+Toolkit/Drivers/Intel_IRST/
+Toolkit/Drivers/Intel_ME/
+Toolkit/Drivers/Intel_DSA/
+Toolkit/Drivers/LAN_WiFi/
+
+# Portable tools (each has its own license/distribution)
+Toolkit/Tools/
+
+# ── Background image ─────────────────────────────────────────────────────────
+# The background image is personal/custom — provide your own
+ventoy/theme/background.png
+ventoy/theme/*.png
+ventoy/theme/*.jpg
+
+# ── Claude Code internal files ───────────────────────────────────────────────
+.claude/
+
+# ── OS junk ─────────────────────────────────────────────────────────────────
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# AV sandbox artifacts
+.norton/
+~NRTNBS*/
+
+# ── Temp / logs ──────────────────────────────────────────────────────────────
+*.log
+*.tmp
