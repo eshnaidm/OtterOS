@@ -61,7 +61,7 @@ git clone https://github.com/eshnaidm/OtterOS.git
 
 Or download the ZIP from GitHub and extract it.
 
-### Step 3 — Create USB folder structure
+### Step 3 — Run setup script
 
 Run the included setup script as Administrator (replace `F:` with your USB drive letter):
 
@@ -69,22 +69,11 @@ Run the included setup script as Administrator (replace `F:` with your USB drive
 powershell -ExecutionPolicy Bypass -File setup.ps1 -Drive F:
 ```
 
-This creates all the required folders on the USB automatically.
+This does everything in one shot:
+- Creates all folders on the USB
+- Copies all config files (ventoy.json, theme.txt, autounattend.xml, scripts, launcher)
 
-### Step 4 — Copy config files to USB
-
-```powershell
-# Copy Ventoy config and theme
-robocopy "ventoy" "F:\ventoy" /MIR
-
-# Copy autounattend (universal, works for all languages)
-copy autounattend.xml F:\autounattend.xml
-
-# Copy Toolkit scripts and launcher
-robocopy "Toolkit" "F:\Toolkit" /MIR
-```
-
-### Step 5 — Download ISOs and place them in the correct folders
+### Step 4 — Download ISOs and place them in the correct folders
 
 See the [Download Links](#download-links) section below. Put each ISO in the matching folder on the USB.
 
@@ -95,20 +84,20 @@ F:\ISO\Linux\       ← Ubuntu, Kali, GParted, SystemRescue
 F:\ISO\Tools\       ← Memtest86, HDAT2
 ```
 
-### Step 6 — Download and install SDIO + driver packs
+### Step 5 — Download and install SDIO + driver packs
 
 1. Download [SDIO](https://www.glenn.delahoy.com/snappy-driver-installer-origin/) — put `SDIO.exe` in `F:\Toolkit\Drivers\SDIO\`
 2. Run SDIO → Tools → Download Network Indexes
 3. Download driver packs into `F:\Toolkit\Drivers\SDIO\drivers\`
 
-### Step 7 — Add background image
+### Step 6 — Add background image
 
 Put your background image (1920×1080 PNG) at:
 ```
 F:\ventoy\theme\background.png
 ```
 
-### Step 8 — Test boot
+### Step 7 — Test boot
 
 Restart and boot from the USB. You should see the OtterOS themed menu with categorized ISOs.
 
