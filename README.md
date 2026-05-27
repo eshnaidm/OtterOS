@@ -225,7 +225,7 @@ Use the Microsoft Media Creation Tool and select your desired language.
 
 | ISO | Source |
 |-----|--------|
-| Sergei Strelec WinPE | [sergeistrelec.ru](https://sergeistrelec.name) |
+| Sergei Strelec WinPE | [sergeistrelec.name](https://sergeistrelec.name) |
 | Hiren's BootCD PE | [hirensbootcd.org/download](https://www.hirensbootcd.org/download/) |
 | Rescuezilla | [rescuezilla.com/download](https://rescuezilla.com/download) |
 | Clonezilla | [clonezilla.org/downloads](https://clonezilla.org/downloads.php) |
