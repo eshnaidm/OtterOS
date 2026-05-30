@@ -4,7 +4,7 @@
 
 Boot from it to get a clean menu with Windows installers, recovery environments, Linux distros, and diagnostic tools. After installing Windows, plug the USB back in and use the Toolkit folder for drivers, scripts, and utilities.
 
-> Built for a PC repair and gaming PC installation shop in Israel. Works for any technician.
+> Built for a PC repair and gaming PC installation shop. Works for any technician.
 
 ---
 
@@ -225,7 +225,7 @@ Use the Microsoft Media Creation Tool and select your desired language.
 
 | ISO | Source |
 |-----|--------|
-| Sergei Strelec WinPE | [sergeistrelec.ru](https://sergeistrelec.ru) |
+| Sergei Strelec WinPE | [sergeistrelec.name](https://sergeistrelec.name) |
 | Hiren's BootCD PE | [hirensbootcd.org/download](https://www.hirensbootcd.org/download/) |
 | Rescuezilla | [rescuezilla.com/download](https://rescuezilla.com/download) |
 | Clonezilla | [clonezilla.org/downloads](https://clonezilla.org/downloads.php) |
