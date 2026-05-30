@@ -19,31 +19,5 @@
         "ventoy_color": "#FFFFFF",
         "ventoy_width": "46%",
         "ventoy_height": "68%"
-    },
-    "auto_install": [
-        {
-            "image": "/ISO/Windows/Win11_English.iso",
-            "template": ["/ventoy/auto_install/win11_en.xml"]
-        },
-        {
-            "image": "/ISO/Windows/Win11_Hebrew.iso",
-            "template": ["/ventoy/auto_install/win11_he.xml"]
-        },
-        {
-            "image": "/ISO/Windows/Win11_Russian.iso",
-            "template": ["/ventoy/auto_install/win11_ru.xml"]
-        },
-        {
-            "image": "/ISO/Windows/Win10_English.iso",
-            "template": ["/ventoy/auto_install/win10_en.xml"]
-        },
-        {
-            "image": "/ISO/Windows/Win10_Hebrew.iso",
-            "template": ["/ventoy/auto_install/win10_he.xml"]
-        },
-        {
-            "image": "/ISO/Windows/Win10_Russian.iso",
-            "template": ["/ventoy/auto_install/win10_ru.xml"]
-        }
-    ]
+    }
 }
